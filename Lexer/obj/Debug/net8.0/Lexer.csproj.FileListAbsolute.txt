@@ -1,0 +1,14 @@
+/Users/danny/work/compiler/Lexer/Lexer/bin/Debug/net8.0/Lexer
+/Users/danny/work/compiler/Lexer/Lexer/bin/Debug/net8.0/Lexer.deps.json
+/Users/danny/work/compiler/Lexer/Lexer/bin/Debug/net8.0/Lexer.runtimeconfig.json
+/Users/danny/work/compiler/Lexer/Lexer/bin/Debug/net8.0/Lexer.dll
+/Users/danny/work/compiler/Lexer/Lexer/bin/Debug/net8.0/Lexer.pdb
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.AssemblyInfoInputs.cache
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.AssemblyInfo.cs
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.csproj.CoreCompileInputs.cache
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.dll
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/refint/Lexer.dll
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.pdb
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/Lexer.genruntimeconfig.cache
+/Users/danny/work/compiler/Lexer/Lexer/obj/Debug/net8.0/ref/Lexer.dll
