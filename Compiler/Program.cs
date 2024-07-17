@@ -128,8 +128,9 @@ namespace LexerParser
         {
             FunctionNode = fn;
         }
-        //public override void parse() {  
-        //}
+        public override string ToString(){
+            return "Program(\n\t"+FunctionNode.ToString()+"\n)";
+        }  
     }
     class FunctionNode : ASTNode {
         public string Identifier;
@@ -140,14 +141,29 @@ namespace LexerParser
             StatementNode = s;
             //parentNode = pn;
         }
+        public override string ToString(){
+            return "Function(\n\t\tname="+Identifier+"\",\n\t\tbody="+StatementNode.ToString()+"\n\t)";
+        }  
     }
     class StatementNode : ASTNode {
         public ExpNode Value;
-        public StatementNode(ExpNode v) { Value = v; }
+        public string Body;
+        public StatementNode(ExpNode v) { Value = v; Body = ""; }
+        public StatementNode(ExpNode v, string b) { Value = v; Body = b; }
+
+        public override string ToString(){
+            return "Return(\n\t\t\t"+Value.ToString()+"\n\t\t)";
+        }
     }
     class ExpNode : ASTNode {
         public IntNode Value;
-        public ExpNode(IntNode v) { Value = v;}
+        public string DataType;
+        public ExpNode(IntNode v) { Value = v; DataType = "Unknown";}
+        public ExpNode(IntNode v, string d) { Value = v; DataType = d;}
+
+        public override string ToString(){
+            return DataType.ToString()+"("+Value.ToString()+")";
+        }
     }
     class IdentifierNode : ASTNode {
         public string Value;
@@ -156,6 +172,10 @@ namespace LexerParser
     class IntNode : ASTNode {
         public int Value;
         public IntNode(int v) { Value = v; }
+
+        public override string ToString(){
+            return Value.ToString();
+        }
     }
 
     static class Parser {
@@ -175,10 +195,10 @@ namespace LexerParser
         static public ProgramNode Run(List<Token> tokens)
         {
             ProgramNode p = new ProgramNode(Parser.functionNode(tokens));
-            Console.WriteLine("Program:");
-            Console.WriteLine("Function: {0}", p.FunctionNode.Identifier);
-            Console.WriteLine("Statement: {0}", p.FunctionNode.StatementNode.Value.Value.Value);
-
+            //Console.WriteLine("Program:");
+            //Console.WriteLine("Function: {0}", p.FunctionNode.Identifier);
+            //Console.WriteLine("Statement: {0}", p.FunctionNode.StatementNode.Value.Value.Value);
+            Console.Write(p);
             return p;
         }
 
@@ -243,7 +263,7 @@ namespace LexerParser
             //if (tokens[0].TokenType == "constant")
             if (CheckType("constant", tokens))
             {
-                return new ExpNode(Parser.intNode(tokens)) ;
+                return new ExpNode(Parser.intNode(tokens),"constant") ;
             }
                 
             throw new Exception ("Exp Node parser called on non constant token");
