@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danny/work/compiler/Lexer/Lexer/Lexer.csproj",
-      "projectName": "Lexer",
-      "projectPath": "/Users/danny/work/compiler/Lexer/Lexer/Lexer.csproj",
+      "projectUniqueName": "/Users/danny/work/compiler/Compiler/Compiler/Compiler.csproj",
+      "projectName": "Compiler",
+      "projectPath": "/Users/danny/work/compiler/Compiler/Compiler/Compiler.csproj",
       "packagesPath": "/Users/danny/.nuget/packages/",
-      "outputPath": "/Users/danny/work/compiler/Lexer/Lexer/obj/",
+      "outputPath": "/Users/danny/work/compiler/Compiler/Compiler/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
