@@ -1,0 +1,15 @@
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.AssemblyInfoInputs.cache
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.AssemblyInfo.cs
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.csproj.CoreCompileInputs.cache
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.sourcelink.json
+/Users/danny/work/compiler/Compiler/Compiler/bin/Debug/net8.0/Compiler
+/Users/danny/work/compiler/Compiler/Compiler/bin/Debug/net8.0/Compiler.deps.json
+/Users/danny/work/compiler/Compiler/Compiler/bin/Debug/net8.0/Compiler.runtimeconfig.json
+/Users/danny/work/compiler/Compiler/Compiler/bin/Debug/net8.0/Compiler.dll
+/Users/danny/work/compiler/Compiler/Compiler/bin/Debug/net8.0/Compiler.pdb
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.dll
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/refint/Compiler.dll
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.pdb
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/Compiler.genruntimeconfig.cache
+/Users/danny/work/compiler/Compiler/Compiler/obj/Debug/net8.0/ref/Compiler.dll
